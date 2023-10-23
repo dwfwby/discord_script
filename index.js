@@ -1,7 +1,7 @@
-const chatID = "259124796971941890"; //id чата
-const voiceChatName = "Пальма"; //id голосовой комнаты откуда брать линки для пинга
-const authorization = "MTA0MTY5NjUxOTQ2MTUzOTk4MA.GZ9U_z.39jtBT3V8ZmeEqQWLDA_GdkyeSt0lgsN8uJb5A"; // токен для авторизации
-const message = "пальмы хуесосы а скрипт вот https://raw.githubusercontent.com/danillobin/discord_script/main/index.js" // сообщение
+const chatID = "259124796971941890"; //id чата, куда будут отправлены запросы
+const voiceChatName = "Комната"; //название голосовой комнаты откуда брать линки для пинга
+const authorization = "MTA0MTY5NjUxOTQ2MTUzOTk4************************************"; // токен для авторизации
+const message = "привет" // сообщение, которое будет спамиться
 
 let avatars = document.querySelectorAll(`div[data-dnd-name*='${voiceChatName}'] div[class*=userAvatar]`)
 if(avatars.length){
